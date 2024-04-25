@@ -1,0 +1,13 @@
+CREATE DATABASE hacienda;
+USE hacienda;
+
+CREATE TABLE animales(
+    ID INT (11),
+    Raza VARCHAR(15),
+    Precio float,
+    Color VARCHAR(15),
+    Edad INT (11),
+    Observacion VARCHAR(30),
+    PRIMARY KEY (ID)
+);
+
